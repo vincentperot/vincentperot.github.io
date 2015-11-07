@@ -89,8 +89,8 @@
         <div class="container">
             <div class="text-center">
             <h1>About Me</h1>
-	      <img src="images/vincent.png" style="max-width: 25%;height: auto;"> 
-              <p>Hi there! I'm Vincent, an undergraduate student student from Montreal, Canada. I'm currently a senior in electrical engineering and I have an interest in pretty much everything technological. Professionally, I've tried a bunch of different things, from ASIC design to software development. I think I'm pretty good at Java, digital circuits, algorithms and IDE development. More recently, I've been trying to get deeper into machine learning and big data. Outside of work, I enjoy sports (especially badminton and table tennis) and travelling. I also really like food. I speak English and French fluently, and plan on learning another language or two, most likely Spanish and Korean. I've lived in different places during my life including Canada, France, Korea and Sweden. In May 2016, I'll be starting as a software engineer at Google in California!</p>
+	      <img src="images/vincent.png" style="max-width: 25%;min-width: 10%;height: auto;"> 
+              <p>I'm Vincent, an undergraduate student from Montreal, Canada. I'm currently a senior in electrical engineering and I have an interest in pretty much everything technological. Professionally, I've tried a bunch of different things, from ASIC design to software development. I think I'm pretty good at Java, digital circuits, algorithms and IDE development. More recently, I've been trying to get deeper into machine learning and big data. I speak English and French fluently, and plan on learning another language or two, most likely Spanish and Korean. I've lived in different places during my life including Canada, France, Korea and Sweden. In May 2016, I'll be starting as a software engineer at Google in California.</p>
             </div>
         </div>
 
@@ -102,7 +102,7 @@
            <div class="heading text-center">
                 <!-- Heading -->
                 <h2>Professional Experience</h2>
-                <p>A quick overview of what I've been up to those past years. Have a look at my <a href="https://ca.linkedin.com/pub/vincent-perot/51/268/933">LinkedIn</a> for a more in-depth description.</p>
+                <p>A quick overview of what I've been up to these past years. Have a look at my <a href="https://ca.linkedin.com/pub/vincent-perot/51/268/933">LinkedIn</a> for a more in-depth description.</p>
             </div>
         <div id="timeline"><div class="row timeline-movement timeline-movement-top">
         <div class="timeline-badge timeline-future-movement">
@@ -315,12 +315,12 @@
 
             <div class="row mrgn10">
 
-                <form method="post" action="php/html_form_send.php" id="contactfrm" role="form">
+                <form method="post" action="mailto:vincent.perot@gmail.com??subject=[Website] New Message!" id="contactfrm" role="form"> <!-- TODO: make script for sending mail -->
 
                     <div class="col-sm-4">
                         <div class="form-group">
                             <label for="name">Name</label>
-                            <input type="text" class="form-control" name="name" id="name" placeholder="Enter name" title="Please enter your name (at least 2 characters)">
+                            <input type="text" class="form-control" name="name" id="name" placeholder="Enter name" title="Please enter your name">
                         </div>
                         <div class="form-group">
                             <label for="email">Email</label>
@@ -330,7 +330,7 @@
                     <div class="col-sm-8">
                         <div class="form-group">
                             <label for="comments">Comments</label>
-                            <textarea name="comment" class="form-control" id="comments" cols="3" rows="5" placeholder="Enter your message…" title="Please enter your message (at least 10 characters)"></textarea>
+                            <textarea name="comment" class="form-control" id="comments" cols="3" rows="5" placeholder="Enter your message…" title="Please enter your message"></textarea>
                         </div>
                         <button name="submit" type="submit" class="btn btn-lg btn-primary" id="submit">Submit</button>
                         <div class="result"></div>
