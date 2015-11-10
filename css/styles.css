@@ -280,6 +280,7 @@ background: none;
     width: 100%;
     height: auto;
     padding: 30px 0;
+    background: #fff;
 }
 
 .noPadd {
@@ -370,8 +371,8 @@ background: none;
 
 .heading { 
     padding: 3px 10px;
-    padding-bottom: 15px;
-    margin-bottom: 30px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
     display: block;
 }
 
@@ -900,7 +901,7 @@ footer {
 }
 
 .social a {
-    font-size: 32px;
+    font-size: 48px;
     margin: 0 10px;
     color: #c7c7c7;
 }
