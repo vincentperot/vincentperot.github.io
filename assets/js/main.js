@@ -79,7 +79,7 @@ $(document).ready(function() {
 
   $(function() {
     typed.typed({
-      strings: ["Vincent Perot.", "A Machine Learning Expert.", "A Product Geek.", "A Blockchain Enthusiast."],
+      strings: ["Vincent Perot.", "A Software Engineer.", "A Machine Learning Aficionado.", "A Coffee Enthusiast."],
       typeSpeed: 100,
       loop: true,
     });
